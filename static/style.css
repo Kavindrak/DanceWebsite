@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhai+2&family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Roboto+Slab:wght@500&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(100%);
+}
+#navbar{
+    position: sticky;
+    background-color: rgb(238, 54, 54);
+    padding: 18px 14px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+    font-size: 30px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 48px;
+    background: center/cover no-repeat url("/static/bgb.jpg");
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    padding: 5px;
+    font-size: 30px;
+}
+#missionSection{
+    height: 310px;
+    margin: auto;
+    width: 76%;
+    display: block;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 42px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 14px 22px;
+    height: 195px;
+    display: inline-block;
+    background-color: rgb(220, 255, 255);
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px ;
+    margin: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5pxpx 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    background-color: rgba(218, 134, 134, 0.822);
+    height: 300px;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 42px;
+}
+#sponsors{
+    height: 190px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    font-size: 15px;
+}
